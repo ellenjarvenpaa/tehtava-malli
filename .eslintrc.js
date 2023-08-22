@@ -4,12 +4,12 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["google", "eslint:recommended", "plugin:prettier/recommended"],
+  extends: ['google', 'eslint:recommended', 'plugin:prettier/recommended'],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    "require-jsdoc": 0,
+    'require-jsdoc': 0,
   },
 };
